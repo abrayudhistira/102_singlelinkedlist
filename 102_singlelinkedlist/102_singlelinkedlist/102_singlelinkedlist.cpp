@@ -162,7 +162,7 @@ int main() {									//main program
 				int nim;
 				cout << "Masukkan NIM: ";
 				cin >> nim;
-				if (deleteNode(nim)) {
+				if (deleteNode(nim)) {								//membuat kondisi didalam case 2
 					cout << "nim: " << nim << "berhasil dihapus" << endl;
 					system("pause");
 					system("cls");
