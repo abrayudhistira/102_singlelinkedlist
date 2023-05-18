@@ -82,7 +82,7 @@ bool deleteNode(int nim) {						//membuat bool deleteNode
 		START = current->next;
 	return true;
 }
-bool listEmpty() {
+bool listEmpty() {								//membuat bool listEmpty
 	if (START == NULL)
 		return true;
 	else
