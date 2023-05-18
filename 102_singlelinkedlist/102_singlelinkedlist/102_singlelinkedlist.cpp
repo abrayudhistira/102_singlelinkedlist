@@ -129,7 +129,7 @@ void searchData() {							//membuat void searchData
 	}
 }
 
-int main() {
+int main() {									//main program
 	int pilihan;
 	do
 	{
