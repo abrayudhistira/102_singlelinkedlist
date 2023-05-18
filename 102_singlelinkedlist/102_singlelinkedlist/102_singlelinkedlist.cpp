@@ -173,7 +173,7 @@ int main() {									//main program
 			case 3:											//case 3 untuk pilihan ketiga merujuk ke void traverse
 				traverse();
 				break;
-			case 4:
+			case 4:											//case 4 untuk pilihan keempat merujuk ke void searchData
 				searchData();
 			case 5:
 				break;
