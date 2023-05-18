@@ -182,7 +182,7 @@ int main() {									//main program
 				break;
 			}
 		}
-		catch (exception e)
+		catch (exception e)									//membuat catch untuk menghindari program error
 		{
 			cout << "Terjadi Kesalahan" << endl;
 		}
