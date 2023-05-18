@@ -150,7 +150,7 @@ int main() {									//main program
 				system("pause");
 				system("cls");
 				break;
-			case 2:
+			case 2:												//case 2 untuk pilihan kedua
 				if (listEmpty())
 				{
 					cout << "List Kosong" << endl;
