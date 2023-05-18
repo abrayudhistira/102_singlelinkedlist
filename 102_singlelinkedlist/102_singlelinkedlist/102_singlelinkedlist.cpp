@@ -175,7 +175,7 @@ int main() {									//main program
 				break;
 			case 4:											//case 4 untuk pilihan keempat merujuk ke void searchData
 				searchData();
-			case 5:
+			case 5:											//case 5 untuk pilihan kelima merujuk keluar program
 				break;
 			default:
 				cout << "Pilihan Tidak Ada" << endl;
