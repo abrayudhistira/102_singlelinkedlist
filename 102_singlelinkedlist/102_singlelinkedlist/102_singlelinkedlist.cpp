@@ -9,7 +9,7 @@ struct Node {				//Membuat Metode Struct
 
 Node* START = NULL;
 
-void addNode() {
+void addNode() {						//membuat void addNode
 	int nim;
 	string nama;
 	Node* nodeBaru = new Node();
