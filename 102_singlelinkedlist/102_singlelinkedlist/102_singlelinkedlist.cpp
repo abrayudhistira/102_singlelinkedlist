@@ -83,7 +83,7 @@ bool deleteNode(int nim) {						//membuat bool deleteNode
 	return true;
 }
 bool listEmpty() {								//membuat bool listEmpty
-	if (START == NULL)
+	if (START == NULL)							//membuat kondisi didalam bool listEmpty
 		return true;
 	else
 		return false;
