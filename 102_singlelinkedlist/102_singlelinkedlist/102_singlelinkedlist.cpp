@@ -72,7 +72,7 @@ bool searchNode(int nim, Node* current, Node* previous) {				//membuat boolean s
 		return false;
 	}
 }
-bool deleteNode(int nim) {
+bool deleteNode(int nim) {						//membuat bool deleteNode
 	Node* current = START;
 	Node* previous = START;
 	if (searchNode(nim, previous, current) == false)
