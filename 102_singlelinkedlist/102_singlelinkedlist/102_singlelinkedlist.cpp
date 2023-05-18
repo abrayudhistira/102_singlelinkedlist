@@ -170,7 +170,7 @@ int main() {									//main program
 				else
 					cout << "Data tidak ditemukan" << endl;
 				break;
-			case 3:
+			case 3:											//case 3 untuk pilihan ketiga merujuk ke void traverse
 				traverse();
 				break;
 			case 4:
