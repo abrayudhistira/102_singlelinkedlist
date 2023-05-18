@@ -53,7 +53,7 @@ void addNode() {						//membuat void addNode
 bool searchNode(int nim, Node* current, Node* previous) {				//membuat boolean searchNode
 	previous = START;
 	current = START;
-	while (current != NULL && nim > current->noMhs)
+	while (current != NULL && nim > current->noMhs)						//membuat kondisi didalam bool searchNode
 	{
 		previous = current;
 		current = current->next;
