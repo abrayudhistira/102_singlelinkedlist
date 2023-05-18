@@ -89,7 +89,7 @@ bool listEmpty() {								//membuat bool listEmpty
 		return false;
 }
 
-void traverse() {
+void traverse() {								//membuat void traverse
 	if (listEmpty()) {
 		cout << "List Kosong" << endl;
 		system("pause");
