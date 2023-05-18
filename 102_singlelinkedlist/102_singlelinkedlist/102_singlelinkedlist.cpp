@@ -50,7 +50,7 @@ void addNode() {						//membuat void addNode
 	previous->next = nodeBaru;
 }
 
-bool searchNode(int nim, Node* current, Node* previous) {
+bool searchNode(int nim, Node* current, Node* previous) {				//membuat boolean searchNode
 	previous = START;
 	current = START;
 	while (current != NULL && nim > current->noMhs)
