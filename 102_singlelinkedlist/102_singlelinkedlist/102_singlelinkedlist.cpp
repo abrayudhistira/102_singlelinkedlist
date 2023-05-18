@@ -106,7 +106,7 @@ void traverse() {								//membuat void traverse
 }
 
 
-void searchData() {
+void searchData() {							//membuat void searchData
 	if (listEmpty()) {
 		cout << "List Kosong" << endl;
 		system("pause");
