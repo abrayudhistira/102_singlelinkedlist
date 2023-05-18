@@ -144,7 +144,7 @@ int main() {									//main program
 			cin >> pilihan;
 			switch (pilihan)					//membuat statement switch case untuk membuat program pilihan
 			{
-			case 1:
+			case 1:												//case 1 untuk pilihan pertama
 				addNode();
 				cout << "Data berhasil Ditambahkan" << endl;
 				system("pause");
