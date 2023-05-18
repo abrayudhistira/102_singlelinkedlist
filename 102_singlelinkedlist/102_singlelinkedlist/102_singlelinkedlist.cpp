@@ -142,7 +142,7 @@ int main() {									//main program
 			cout << "5. Keluar" << endl;
 			cout << "Pilihan" << endl;
 			cin >> pilihan;
-			switch (pilihan)
+			switch (pilihan)					//membuat statement switch case untuk membuat program pilihan
 			{
 			case 1:
 				addNode();
